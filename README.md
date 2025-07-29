@@ -80,8 +80,15 @@ train_model(model, train_dl, val_dl, 20, display_every=1500, save_dir="model_che
 
 ## Results
 
-- The model achieves realistic colorization for common objects and scenes.
-- Pretraining the generator significantly improves convergence speed and final quality.
+The model achieves realistic colorization for common objects and scenes.
+
+Pretraining the generator significantly improves convergence speed and final quality.
+
+### 🔍 Sample Result
+
+<p align="center">
+  <img src="colorization_result.png" alt="Colorization Result" width="700"/>
+</p>
 
 ---
 
