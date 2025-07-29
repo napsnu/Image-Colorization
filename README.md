@@ -28,24 +28,27 @@ This project demonstrates deep learning-based image colorization using a U-Net g
 git clone https://github.com/napsnu/Image-Colorization.git
 cd Image-Colorization
 
-2. Install Dependencies
+### 2. Install Dependencies
 Recommended environment: Python 3.8+
+
 Install required packages:
 
 pip install torch torchvision fastai==2.4 scikit-image matplotlib pillow tqdm
 
-3. Prepare Your Dataset
+### 3. Prepare Your Dataset
 Place your images in a folder (e.g., D:/new).
 Update the notebook's path variable to point to your dataset location.
-4. Run the Notebook
+
+### 4. Run the Notebook
 Open Image_Colorization_with_U_Net_and_GAN_Tutorial.ipynb in VS Code or Jupyter Notebook.
 
-5. Training
+### 5. Training
 Pretrain the Generator:
 Run the pretraining cell to train the generator with L1 loss and save its weights.
 Adversarial Training:
 Load the pretrained generator and train the full GAN model for 10–20 epochs.
-6. Visualization and Inference
+
+### 6. Visualization and Inference
 Use provided utility functions to visualize results and predict colorizations for new grayscale images.
 Example Usage
 # Load pretrained generator and continue GAN training
